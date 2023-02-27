@@ -1,0 +1,150 @@
+@import url('./layout.css');
+
+html {
+    background-color: #0e0e0e;
+}
+
+body, header, main, aside, footer
+ {
+    outline: 1px dashed #ccc;
+    background-color: white;
+}
+
+/*navagation*/
+
+#main-nav {
+    background-color: #C0392B;
+}
+
+#main-nav ul {
+    display: flex;
+    justify-content:center ;
+}
+
+#main-nav a {
+    padding: 1em 6.5em;
+    display: block;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+#main-nav a:hover {
+    color: #E9872B;
+}
+
+#flex-cont {
+    display: flex;
+    flex-direction: row;
+}
+
+/*Header*/
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 250px;
+    background-image: url(../images/dylan-leagh-o3eZxJRrNRQ-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #FFF;
+}
+
+header > a {
+    margin-left: 700px;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+h1 {
+    margin-left: 75px;
+    color: #ecf0f1;
+    font-family: Garamond, serif;;
+}
+
+header h1, h2 {
+    font-size: 3.4em;
+    font-weight: bold;
+}
+
+#button {
+    margin-right: 20px;
+    margin-left: 350px;
+    padding: 5px 10px 5px 10px;
+    background: #34495E;
+    border-radius: 10px;
+    color: #FFF;
+    width: 166px;
+    text-align: center;
+    height: 85px;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+.header:visited {
+    color: #FFF;
+}
+
+/* main */
+main p {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+#description img {
+    float: left;
+    margin-right: 1em;
+}
+
+#description p {
+    font-size: 1.2em;
+    line-height: 1.4em;
+    margin-bottom: 2em;
+}
+
+/* aside */
+aside h2 {
+    font-size: 1.5em;
+    /* margin-bottom: 1em; */
+    background-color: #333333;
+    color: #FFF;
+    padding: 1em 2em;
+}
+
+aside h3 {
+    font-size: 1.2em;
+    background-color: #333333;
+    color: #FFF;
+    text-decoration: none;
+    padding: 1em 1em;
+}
+
+aside ol li {
+    padding: 1em;
+}
+
+.asidez:visited {
+    color: white;
+}
+
+.asidez {
+    text-decoration: none;
+}
+
+
+
+/*footer*/
+footer {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    /* background-image: url(../images/georgian-college.png); */
+    background-position: center;
+    /* background-size: cover; */
+    color: white;
+    background-color: #2C3E50;
+}
+
+#logo {
+    margin-left: 985px;
+    margin-top: -55px;
+}
